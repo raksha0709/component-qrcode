@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+img{
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+body{
+    font-size: 15px;
+    background-color: rgb(210, 226, 213);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin:1.25rem;
+}
+.container{
+    background-color: #fff;
+    padding:1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+}
+.container h1{
+    text-align: center;
+}
+.container p{
+    text-align: center;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media (min-width:500px){
+    .container{
+    width:400px;
+    }
+}
